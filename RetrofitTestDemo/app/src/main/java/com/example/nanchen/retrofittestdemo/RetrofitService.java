@@ -13,5 +13,5 @@ import retrofit2.http.Query;
 public interface RetrofitService {
 
     @GET("user/rigister")
-    Call<User> registUser(@Query("key") String key, @Query("name")String username, @Query("pwd")String pwd, @Query("email")String email);
+    Call<User> registUser(@Query("key") String key, @Query("username")String username, @Query("password")String password, @Query("email")String email);
 }

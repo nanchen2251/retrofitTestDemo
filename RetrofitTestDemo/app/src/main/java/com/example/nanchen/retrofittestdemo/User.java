@@ -34,6 +34,15 @@ public class User {
     public void setUid(String uid) {
         this.uid = uid;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "retCode='" + retCode + '\'' +
+                ", msg='" + msg + '\'' +
+                ", uid='" + uid + '\'' +
+                '}';
+    }
 }
 
 

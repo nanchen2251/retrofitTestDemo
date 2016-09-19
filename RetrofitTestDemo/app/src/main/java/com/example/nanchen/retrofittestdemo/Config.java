@@ -8,4 +8,6 @@ package com.example.nanchen.retrofittestdemo;
  */
 public class Config {
     public static final String MOB_APP_KEY = "1730bae762bbc";
+
+    public static final String MOB_API_SERVICE_HOST = "http://apicloud.mob.com/";
 }
